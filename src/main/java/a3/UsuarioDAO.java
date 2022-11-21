@@ -1,4 +1,4 @@
-package pacote_a3;
+package a3;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

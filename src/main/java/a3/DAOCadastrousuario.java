@@ -8,7 +8,7 @@ public class DAOCadastrousuario {
         cadastrousuario cu = new cadastrousuario(nome, email, senha, tipousuario);
         
         //1: Definir o comando SQL
-        String sql = "INSERT INTO cadastrousuario(nome, email, senha) VALUES (?, ?, ?, ?)";
+        String sql = "INSERT INTO cadastrousuario(nome, email, senha,  tipousuario) VALUES (?, ?, ?, ?)";
 
         //2: Abrir uma conexão
         ConnectionFactory cf = new ConnectionFactory();

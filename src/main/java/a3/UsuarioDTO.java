@@ -1,4 +1,4 @@
-package pacote_a3;
+package a3;
 
 
 public class UsuarioDTO {
