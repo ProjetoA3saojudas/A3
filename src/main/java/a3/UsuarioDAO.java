@@ -16,7 +16,7 @@ public class UsuarioDAO {
          c = new ConnectionFactory().obtemConexao();
          
          try {
-             String sql = "select * from cadastrousuario where email = ? and senha ?";
+             String sql = "select * from cadastrousuario where email = ? and senha =?";
              PreparedStatement pstm = c.prepareStatement(sql); 
              pstm.setString(1, objusuariodto.getEmail());
              pstm.setString(2, objusuariodto.getSenha()); 
